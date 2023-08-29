@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #EAEAEA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1070px;
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #252A34;
+    display: grid;
+    grid-template-columns: repeat(4px);
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    width: 265px;
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 10px;
+    color: #252A34;
+    text-align: end;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #FF2E63;
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 16px;
+    color: #EAEAEA;
+}
+
+button:hover {
+    background-color: #08D9D6;
+    color: #252A34;
+    cursor: pointer;
+}
+
+.angka {
+    background-color: #EAEAEA;
+    color: #252A34;
+}
+
+.hasil {
+    border-radius: 8px;
+    background-color: #FF2E63;
+}
